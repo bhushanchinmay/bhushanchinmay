@@ -6,7 +6,9 @@ In my personal projects, I focus on concurrent updates, partial failures, reliab
 
 ## Selected projects
 
-### [Workflow State Tracker](https://github.com/bhushanchinmay/workflow-state-tracker)
+🤖 Built with AI assistance from Codex or Claude.
+
+### [Workflow State Tracker](https://github.com/bhushanchinmay/workflow-state-tracker) 🤖
 
 A Spring Boot service that tracks workflow events and acknowledgements from downstream services.
 
@@ -17,7 +19,7 @@ A Spring Boot service that tracks workflow events and acknowledgements from down
 
 **Design focus:** State transitions, concurrent updates, and recovery from partial failures. Delivery is at least once, so consumers must handle duplicate events.
 
-### [Book Search](https://github.com/bhushanchinmay/book-search)
+### [Book Search](https://github.com/bhushanchinmay/book-search) 🤖
 
 A Java and Spring Boot API for searching a book catalogue with PostgreSQL.
 
@@ -28,7 +30,7 @@ A Java and Spring Boot API for searching a book catalogue with PostgreSQL.
 
 **Design focus:** Search relevance, relational modelling, and data ingestion without a separate search service.
 
-### [ClipSync](https://github.com/bhushanchinmay/clipsync)
+### [ClipSync](https://github.com/bhushanchinmay/clipsync) 🤖
 
 A local tool that transfers clipboard text from macOS to Android over Wi-Fi.
 
