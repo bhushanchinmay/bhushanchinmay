@@ -4,7 +4,7 @@ I build backend services with Java and Spring Boot. My work covers APIs, subscri
 
 In my personal projects, I focus on concurrent updates, partial failures, reliable message delivery, and database design.
 
-## Selected projects
+## Projects
 
 🤖 Built with AI assistance from Codex or Claude.
 
