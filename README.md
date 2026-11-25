@@ -19,6 +19,18 @@ A Spring Boot service that tracks workflow events and acknowledgements from down
 
 **Design focus:** State transitions, concurrent updates, and recovery from partial failures. Delivery is at least once, so consumers must handle duplicate events.
 
+### [botdesk](https://github.com/bhushanchinmay/botdesk) 🤖
+
+An AI software team that works on any attached git repository, with a human approving each step.
+
+- Runs every task through an 11-state workflow: plan, approve, code, quality gates, review, approve, release.
+- An engineer agent changes code only in its own git worktree, through sandboxed, path-checked tools.
+- Quality gates in plain Java re-run the build and tests before any model reviews the change.
+- Binds approval to a commit SHA, so any later change needs approval again; releases open draft pull requests.
+- Works with any OpenAI-compatible model provider. Plain Java 21, no external libraries, 48 tests on real git repos.
+
+**Design focus:** Rules enforced in code rather than prompts, a single-threaded orchestrator, and keeping model calls and cost low.
+
 ### [Book Search](https://github.com/bhushanchinmay/book-search) 🤖
 
 A Java and Spring Boot API for searching a book catalogue with PostgreSQL.
